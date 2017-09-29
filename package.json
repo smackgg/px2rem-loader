@@ -1,6 +1,6 @@
 {
   "name": "smart-px2rem-loader",
-  "version": "0.1.10",
+  "version": "0.1.12",
   "description": "css post loader for px2rem",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/smackgg/px2rem-loader.git"
+    "url": "https://github.com/smackgg/smart-px2rem-loader.git"
   },
   "keywords": [
     "webpack",
@@ -17,9 +17,9 @@
   "author": "smackgg",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/smackgg/px2rem-loader/issues"
+    "url": "https://github.com/smackgg/smart-px2rem-loader/issues"
   },
-  "homepage": "https://github.com/smackgg/px2rem-loader",
+  "homepage": "https://github.com/smackgg/smart-px2rem-loader",
   "dependencies": {
     "css": "^2.2.1",
     "extend": "^3.0.1",
