@@ -1,4 +1,4 @@
-# px2rem-loader
+# smart-px2rem-loader
 
 a [webpack](http://webpack.github.io/) loader for [px2rem](https://github.com/songsiqi/px2rem)
 
@@ -15,13 +15,13 @@ a [webpack](http://webpack.github.io/) loader for [px2rem](https://github.com/so
 
 ## Install
 
-`npm install px2rem-loader`
+`npm install smart-px2rem-loader`
 
 ## webpack config
 
 ```
 {
-  loaders: [{ test: /\.css$/, loader: 'style!css!px2rem?remUnit=75&remPrecision=8' }]
+  loaders: [{ test: /\.css$/, loader: 'style!css!px2rem?remUnit=75&remPrecision=8&excludes[]=border' }]
 }
 ```
 
