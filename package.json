@@ -8,20 +8,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jinjiang/px2rem-loader.git"
+    "url": "https://github.com/smackgg/px2rem-loader.git"
   },
   "keywords": [
     "webpack",
     "loader"
   ],
-  "author": "Jinjiang",
+  "author": "smackgg",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Jinjiang/px2rem-loader/issues"
+    "url": "https://github.com/smackgg/px2rem-loader/issues"
   },
-  "homepage": "https://github.com/Jinjiang/px2rem-loader",
+  "homepage": "https://github.com/smackgg/px2rem-loader",
   "dependencies": {
-    "px2rem": "~0.5.0",
+    "css": "^2.2.1",
+    "extend": "^3.0.1",
     "loader-utils": "^0.2.7"
   },
   "devDependencies": {
