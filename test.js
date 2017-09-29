@@ -65,4 +65,10 @@ describe('Loader Query', function () {
     expect(output).is.a('string')
     expect(output).to.equal('body {\n  width: 5.689rem;\n}')
   })
+
+  it('should support `excludes` query', function () {
+    var output = loader.call({query: '?excludes[]=border'}, 'body {width: 640px; border: 1px solid #ccc}')
+    expect(output).is.a('string')
+    expect(output.replace(/\s/g, '')).to.equal('body { width: 8.533333rem; border: 1px solid #ccc;}'.replace(/\s/g, ''))
+  })
 })
