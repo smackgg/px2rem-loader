@@ -71,4 +71,10 @@ describe('Loader Query', function () {
     expect(output).is.a('string')
     expect(output.replace(/\s/g, '')).to.equal('body { width: 8.533333rem; border: 1px solid #ccc;}'.replace(/\s/g, ''))
   })
+
+  it('should support `calc`', function () {
+    var output = loader.call({query: '?remUnit=64'}, 'body { width: calc(100% - 20px);}')
+    expect(output).is.a('string')
+    expect(output.replace(/\s/g, '')).to.equal('body { width: calc(100% - 0.3125rem);}'.replace(/\s/g, ''))
+  })
 })
